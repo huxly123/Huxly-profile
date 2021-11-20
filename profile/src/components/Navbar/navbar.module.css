@@ -21,7 +21,7 @@ padding: 0px 20px;
 .hs{
     padding: 18px 50px;
     font-size: 28px;
-    color: #42A5F5;
+    color: #286DAB;
     cursor: pointer;
      transition: 0.5s;
 }
@@ -49,5 +49,12 @@ margin-top: 2.5vh;
 }
 
 .flexx a:hover::before{
-     width: 3em;
+     width: 3.5em;
+}
+
+@media only screen and (max-width: 630px){
+.flexx{
+    opacity: 0;
+    
+}
 }

@@ -1,0 +1,17 @@
+.photobody{
+    width: 50vw;
+    height: 200px;
+    background-color: blue;
+animation-name: boxx;
+animation-duration: 2s;
+}
+
+@keyframes boxx{
+    from {
+        width: 0;
+    }
+    to{
+        width: 50vw;
+    }
+}
+

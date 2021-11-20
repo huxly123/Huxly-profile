@@ -1,0 +1,61 @@
+.detailsbody{
+    width: 50vw;
+ min-height: 230px;
+    border: 1px solid black;
+    animation-name: boxx;
+animation-duration: 2s;
+animation-direction: alternate;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+@keyframes boxx{
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to{
+        width: 50vw;
+        opacity: none;
+        
+    }
+}
+
+
+.hi{
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 0rem;
+   
+}
+
+.name{
+     color: #286DAB;
+     font-size: 28px;
+    font-weight: bold;
+   
+}
+
+.fullstack{
+    font-size: 14px;
+   font-weight: 700;
+   color: #B37D4E;
+}
+
+.smalldiv{
+      border: 1px solid black;
+      width: 80%;
+      margin: 0 auto;
+font-family: 'Roboto', sans-serif;
+}
+
+.resume{
+  border: none;
+  background-color: #CD5360;
+padding: 5px;
+color: white;
+cursor: pointer;
+border-radius: 3px;
+min-width: 120px;
+}
