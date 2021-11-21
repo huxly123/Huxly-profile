@@ -4,6 +4,7 @@
   position: fixed;
   width: 100vw;
   min-height: 50px;
+  max-height: 130px;
   border-bottom: 1px solid #e5e5e5;
   box-sizing: border-box;
   backdrop-filter: saturate(180%) blur(5px);

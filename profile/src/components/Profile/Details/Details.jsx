@@ -14,7 +14,7 @@ function Details() {
         <p className={style.fullstack}>
           Full-stack Web Developer | Competitive programmer
         </p>
-        <a href="https://drive.google.com/file/d/1OVKhnL73PMR3KjM_dCkSjSoHbUTHMjuj/view?usp=sharing">
+        <a href="https://drive.google.com/drive/folders/1jO_9tpxV8G83nDjK9Uw_bibA0epr5ECj?usp=sharing">
           {" "}
           <button className={style.resume}>RESUME</button>
         </a>
