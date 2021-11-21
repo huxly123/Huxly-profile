@@ -1,12 +1,11 @@
 .detailsbody{
     width: 50vw;
  min-height: 230px;
-    border: 1px solid black;
     animation-name: boxx;
 animation-duration: 2s;
 animation-direction: alternate;
 font-family: 'Roboto', sans-serif;
-
+  font-size:clamp(2rem,1vmin,3rem);
 }
 
 
@@ -24,7 +23,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .hi{
-    font-size: 28px;
+   font-size: 24px;
     font-weight: bolder;
     line-height: 0rem;
    
@@ -33,7 +32,8 @@ font-family: 'Roboto', sans-serif;
 .name{
      color: #286DAB;
      font-size: 28px;
-    font-weight: bold;
+    font-weight: bolder;
+    width: 100%;
    
 }
 
@@ -44,9 +44,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .smalldiv{
-      border: 1px solid black;
-      width: 80%;
-      margin: 0 auto;
+      width: 100%;
+    margin-left: 40%;
 font-family: 'Roboto', sans-serif;
 }
 
@@ -58,4 +57,33 @@ color: white;
 cursor: pointer;
 border-radius: 3px;
 min-width: 120px;
+transition: 0.4s ease;
+}
+
+.resume:hover{
+  transform: scale(1.1);
+}
+
+.github{
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 40px;
+}
+
+.github:hover{
+
+ transform: rotateY(180deg);
+}
+
+.linkedin{
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 40px;
+}
+
+.linkedin:hover{
+   transform: rotateY(180deg);
+
 }
