@@ -48,8 +48,24 @@ margin-top: 2.5vh;
     background-color: #42A5F5;
 }
 
-.flexx a:hover::before{
-     width: 3.5em;
+.flexx .a1:hover::before{
+     width: 2.8em;
+}
+
+.flexx .a2:hover::before{
+     width: 2.5em;
+}
+
+.flexx .a3:hover::before{
+     width: 3.3em;
+}
+
+.flexx .a4:hover::before{
+     width: 2.6em;
+}
+
+.flexx .a5:hover::before{
+     width: 3.6em;
 }
 
 @media only screen and (max-width: 630px){
