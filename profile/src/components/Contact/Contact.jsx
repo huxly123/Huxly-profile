@@ -1,10 +1,13 @@
 import React from 'react'
 import style from "./contact.module.css"
+import Left from './Left/Left'
+import Right from './Right/Right'
 
 function Contact() {
     return (
-        <div>
-            
+        <div className={style.contactbody}>
+            <Left />
+            <Right/>
         </div>
     )
 }

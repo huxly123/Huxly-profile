@@ -1,6 +1,7 @@
 .detailsbody{
     width: 50vw;
  min-height: 230px;
+ min-width: 200px;
     animation-name: boxx;
 animation-duration: 2s;
 animation-direction: alternate;

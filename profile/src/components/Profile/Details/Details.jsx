@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
 import style from "./detail.module.css";
-import { Link } from "react-router-dom";
+
 
 function Details() {
   const history = useHistory();
