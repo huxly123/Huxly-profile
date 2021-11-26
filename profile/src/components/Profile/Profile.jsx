@@ -7,10 +7,10 @@ function Profile() {
     return (
       <div className={style.profilebody}>
         <div>
-          <Details />
+          <Photo />
         </div>
         <div>
-          <Photo />
+          <Details />
         </div>
       </div>
     );

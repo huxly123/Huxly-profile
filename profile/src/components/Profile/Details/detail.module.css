@@ -7,8 +7,12 @@ animation-duration: 2s;
 animation-direction: alternate;
 font-family: 'Roboto', sans-serif;
   font-size:clamp(2rem,1vmin,3rem);
+
 }
 
+.contentbody{
+    margin-right: 40%;
+}
 
 @keyframes boxx{
     from {

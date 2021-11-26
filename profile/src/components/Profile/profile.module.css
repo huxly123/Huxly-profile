@@ -2,3 +2,11 @@
     display: flex;
     margin-top: 150px;
 }
+
+@media only screen and (max-width: 800px){
+    .profilebody{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+}
