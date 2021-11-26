@@ -1,0 +1,20 @@
+.project{
+    border: 1px solid black;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+.projectcontent{
+    margin: auto;
+
+}
+
+
+
+
+/* 
+@media only screen and (max-width: 1400px) {
+
+
+} */
