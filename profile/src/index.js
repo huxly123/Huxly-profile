@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {RefcontextProvider} from "./Context/Refcontext"
 
 ReactDOM.render(
   <React.StrictMode>
+    <RefcontextProvider>
     <App />
+    </RefcontextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

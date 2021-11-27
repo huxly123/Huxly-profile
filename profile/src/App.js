@@ -1,4 +1,4 @@
-
+import { useContext } from 'react';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -7,13 +7,18 @@ import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Project from './components/Projects/Project';
 import Skills from './components/Skills/Skills';
+import { Refcontext } from './Context/Refcontext';
 
 function App() {
+
+const { aboutRef } = useContext(Refcontext);
+
+
   return (
     <div className="App">
       <Navbar />
       <Profile />
-      <About />
+      <About ref={ aboutRef}/>
     <Project/>
       <Skills />
       <Contact />

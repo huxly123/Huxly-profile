@@ -7,11 +7,12 @@
     box-shadow: 5px 5px 8px #e6e6e6;
     transition: 0.4s;
     font-family: 'Roboto', sans-serif;
+    
    
 }
 
 .projectbody:hover{
-    transform: scale(1.1);
+    transform: scale(1.015);
  
 }
 
@@ -23,7 +24,7 @@
 }
 
 .imgdiv{
-    width: 100%;
+    width: 50%;
  
 }
 .imgdiv>img{
