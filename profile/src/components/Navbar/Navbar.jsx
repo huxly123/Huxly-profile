@@ -8,8 +8,8 @@ function Navbar() {
 
 
   return (
-    <div className={style.navbody} id="home">
-      <div className={style.hs}>HS</div>
+    <div className={style.navbody}>
+      <div className={style.hs}><a style={{textDecoration:"none",color:"#286DAB"}} href="#home">HS</a></div>
       <div className={style.flexx}>
         <a href="#home" className={style.a1}>
           Home

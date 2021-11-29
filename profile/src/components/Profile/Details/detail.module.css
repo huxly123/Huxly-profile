@@ -92,3 +92,10 @@ transition: 0.4s ease;
    transform: rotateY(360deg);
 
 }
+
+.twitter{
+      border-radius: 100px;
+    
+    cursor: pointer;
+    width: 40px;
+}

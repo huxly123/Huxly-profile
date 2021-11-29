@@ -7,9 +7,9 @@ import style from "./project.module.css"
 function Project() {
   return (
     <>
-      <h2 style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }} id="project">
+      <h1 className={style.h1} style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }}>
         Projects
-      </h2>
+      </h1>
       <div className={style.project}>
         <div className={style.projectcontent}>
           <Project1 />

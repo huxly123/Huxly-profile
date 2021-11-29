@@ -22,12 +22,12 @@ function Project3() {
           <p>React | CSS | JvaScript | MongoDB |Express |NodeJs</p>
           <span className={style.span}>
             <a href="">
-              <img style={{ width: "30px" }} src="github.svg"></img>
+              <img style={{ width: "30px" }} src="/github.svg"></img>
             </a>
             <a href="">
               <img
                 style={{ width: "27px", marginLeft: "10%" }}
-                src="server.png"
+                src="/server.png"
               ></img>
             </a>
           </span>

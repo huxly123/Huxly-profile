@@ -5,7 +5,8 @@ import Photo from "./Photo/Photo"
 
 function Profile() {
     return (
-      <div className={style.profilebody}>
+      <div className={style.profilebody} >
+        
         <div>
           <Photo />
         </div>

@@ -3,9 +3,9 @@ import style from "./skills.module.css";
 
 function Skills() {
   return (
-    <div className={style.skillsbody} id="skills">
+    <div className={style.skillsbody}>
       <div>
-        <h2>Skills & Interests</h2>
+        <h1>Skills & Interests</h1>
       </div>
       <div className={style.allicons}>
         <div>

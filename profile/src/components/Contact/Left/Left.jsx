@@ -4,7 +4,7 @@ import style from "./left.module.css";
 function Left() {
   return (
     <div className={style.leftbody}>
-      <div className={style.wrapper} >
+      <div className={style.wrapper}>
         <div
           style={{
             color: "#B37D4E",
@@ -74,12 +74,13 @@ function Left() {
         </div>
         <div className={style.icondiv}>
           <a target="_blank" href="https://github.com/huxly123">
-            {" "}
-            <img src="/github.svg" alt="github" />
+            <img className={style.img} src="/github.svg" alt="github" />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/huxlysingh/">
-            {" "}
-            <img src="linkedin.svg" alt="linkedin" />
+            <img className={style.img} src="/linkedin.svg" alt="linkedin" />
+          </a>
+          <a target="_blank" href="https://twitter.com/HUXLY2">
+            <img src="/twitter.gif" alt="twitter" />
           </a>
         </div>
       </div>

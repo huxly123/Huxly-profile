@@ -17,12 +17,17 @@ const { aboutRef } = useContext(Refcontext);
   return (
     <div className="App">
       <Navbar />
+      <div id="home"></div>
       <Profile />
-      <About ref={ aboutRef}/>
-    <Project/>
+      <div id="about"></div>
+      <About />
+      <div id="project"></div>
+      <div style={{height:"3vh"}}></div>
+      <Project />
+      <div id="skills"></div>
       <Skills />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -15,17 +15,24 @@ function Details() {
           <p className={style.fullstack}>
             Full-stack Web Developer | Competitive programmer
           </p>
-          <a target="_blank" href="https://drive.google.com/drive/folders/1jO_9tpxV8G83nDjK9Uw_bibA0epr5ECj?usp=sharing">
+          <a
+            target="_blank"
+            href="https://drive.google.com/drive/folders/1jO_9tpxV8G83nDjK9Uw_bibA0epr5ECj?usp=sharing"
+          >
             {" "}
             <button className={style.resume}>RESUME</button>
           </a>
           <div style={{ marginTop: "10px" }}>
             <a target="_blank" href="https://github.com/huxly123">
-              <img className={style.github} src="/github.svg"></img>
+              <img className={style.github} src="/github.svg" alt="github" ></img>
             </a>
 
             <a target="_blank" href="https://www.linkedin.com/in/huxlysingh/">
-              <img className={style.linkedin} src="/linkedin.svg" />
+              <img className={style.linkedin} src="/linkedin.svg" alt="linkedin" />
+            </a>
+
+            <a target="_blank" href="https://twitter.com/HUXLY2">
+              <img className={style.twitter} src="/twitter.gif" alt="twitter"/>
             </a>
           </div>
         </div>

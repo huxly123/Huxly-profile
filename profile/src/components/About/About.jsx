@@ -3,8 +3,8 @@ import style from "./about.module.css";
 
 function About() {
   return (
-    <div className={style.aboutbody} id="about">
-      <h2>About</h2>
+    <div className={style.aboutbody} >
+      <h1 className={style.h1}>About</h1>
       <div className={style.content}>
         Proficient in Front-end and Back-end Web development using MERN. Always
         motivated and eager to work in tech-based companies. Love to learn new
@@ -38,9 +38,10 @@ function About() {
           </svg>
           <a
             style={{ textDecoration: "none" }}
+            target="_blank"
             href="http://huxlygerard5@gmail.com"
           >
-            {" "}
+        
             <span>huxlygerard5@gmail.com</span>
           </a>
         </div>

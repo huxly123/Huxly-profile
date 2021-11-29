@@ -34,7 +34,7 @@
    transition: 0.4s;
 }
 
-.icondiv img:hover{
+ .img:hover{
     transform: rotateY(180deg);
 }
 
