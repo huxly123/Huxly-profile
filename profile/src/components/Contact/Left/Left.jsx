@@ -73,11 +73,11 @@ function Left() {
           </span>
         </div>
         <div className={style.icondiv}>
-          <a href="https://github.com/huxly123">
+          <a target="_blank" href="https://github.com/huxly123">
             {" "}
             <img src="/github.svg" alt="github" />
           </a>
-          <a href="https://www.linkedin.com/in/huxlysingh/">
+          <a target="_blank" href="https://www.linkedin.com/in/huxlysingh/">
             {" "}
             <img src="linkedin.svg" alt="linkedin" />
           </a>

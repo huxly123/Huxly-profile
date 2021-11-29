@@ -7,7 +7,7 @@ import style from "./project.module.css"
 function Project() {
   return (
     <>
-      <h2 style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }}>
+      <h2 style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }} id="project">
         Projects
       </h2>
       <div className={style.project}>

@@ -2,3 +2,7 @@
 .App{
     overflow-x: hidden;
 }
+
+html {
+    scroll-behavior: smooth !important;
+}

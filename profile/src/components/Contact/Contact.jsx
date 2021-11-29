@@ -5,7 +5,7 @@ import Right from './Right/Right'
 
 function Contact() {
     return (
-        <div className={style.contactbody}>
+        <div className={style.contactbody} id="contact">
             <Left />
             <Right/>
         </div>

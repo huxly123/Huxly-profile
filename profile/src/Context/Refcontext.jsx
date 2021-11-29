@@ -8,9 +8,9 @@ export const Refcontext = createContext()
 
 export const RefcontextProvider = ({ children }) => {
     
-    const aboutRef = useRef()
+    const aboutRef = useRef(null)
     
-    const projectRef=useRef()
+    const projectRef=useRef(null)
 
 return(
     <Refcontext.Provider value={{aboutRef,projectRef}}>

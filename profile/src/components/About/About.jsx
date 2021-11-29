@@ -3,7 +3,7 @@ import style from "./about.module.css";
 
 function About() {
   return (
-    <div className={style.aboutbody}>
+    <div className={style.aboutbody} id="about">
       <h2>About</h2>
       <div className={style.content}>
         Proficient in Front-end and Back-end Web development using MERN. Always
