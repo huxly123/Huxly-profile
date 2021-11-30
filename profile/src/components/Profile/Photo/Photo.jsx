@@ -5,7 +5,7 @@ function Photo() {
     return (
       <div className={style.photobody}>
         <div className={style.photodiv}>
-          <img src="/hux.png" />
+          <img src="/Huxly_main-pic.jpg" />
         </div>
       </div>
     );

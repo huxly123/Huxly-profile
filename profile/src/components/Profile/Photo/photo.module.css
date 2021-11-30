@@ -1,6 +1,6 @@
 .photobody{
     width: 50vw;
-    height: 200px;
+    height: 350px;
    
 animation-name: boxx;
 animation-duration: 2s;
@@ -8,12 +8,12 @@ animation-duration: 2s;
 
 .photodiv{
  min-width: 250px;
-    max-height: 250px;
+    height: 100%;
     max-width: 300px;
    margin-left: 30%;
-    border: 1px solid black;
+    border: 1px solid #FAFAFA;
     overflow: hidden;
-    
+    border-radius:10%;
 }
 
 .photodiv img{
@@ -30,3 +30,23 @@ animation-duration: 2s;
     }
 }
 
+@media only screen and (max-width: 800px){
+    
+}
+
+@media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 740px){
+    .photobody{
+       margin-right: 70%;
+    }
+}
+
+
+@media only screen 
+and (min-width: 280px)
+and (max-width: 320px){
+    .photobody{
+         margin-right: 100%;
+    }
+}
