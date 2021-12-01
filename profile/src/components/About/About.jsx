@@ -39,7 +39,8 @@ function About() {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            href="http://huxlygerard5@gmail.com"
+            
+            href="mailto:huxlygerard5@gmail.com"
           >
         
             <span>huxlygerard5@gmail.com</span>

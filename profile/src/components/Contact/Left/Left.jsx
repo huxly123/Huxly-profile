@@ -45,8 +45,8 @@ function Left() {
             ></path>
           </svg>
 
-          <a href="#" style={{ textDecoration: "none" }}>
-            {" "}
+          <a href="mailto:huxlygerard5@gmail.com" style={{ textDecoration: "none" }}>
+           
             <span style={{ paddingLeft: "55px", cursor: "pointer" }}>
               huxlygerard5@gmail.com
             </span>

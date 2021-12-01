@@ -7,11 +7,9 @@ import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Project from './components/Projects/Project';
 import Skills from './components/Skills/Skills';
-import { Refcontext } from './Context/Refcontext';
 
 function App() {
 
-const { aboutRef } = useContext(Refcontext);
 
 
   return (
