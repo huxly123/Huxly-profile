@@ -1,12 +1,8 @@
-.project{
-margin: auto;
-/* border: 1px solid black; */
 
-}
 .projectcontent{
 /* border: 1px solid black; */
 
-    margin: auto;
+    
 display: flex;
 flex-wrap: wrap;
 min-width: 900px;

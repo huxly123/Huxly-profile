@@ -12,7 +12,7 @@ function Project() {
       </h1>
       <div className={style.project}>
         <div className={style.projectcontent}>
-          <Project1 />
+          <Project1/>
           <Project2 />
           <Project3 />
         </div>
