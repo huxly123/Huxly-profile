@@ -4,8 +4,8 @@ import img1 from "./Shopper-stop-1.png";
 import img2 from "./Shopper-stop-2.png";
 import img3 from "./Shopper-stop-3.png";
 import img4 from "./Shopper-stop-4.png";
-import left from "./left.png";
-import right from "./right.png";
+import left from "./left.gif";
+import right from "./right.gif";
 
 const Project1 = () => {
   const [current, setCurrent] = useState(0);
@@ -68,7 +68,7 @@ const Project1 = () => {
         <h2
           style={{
             textAlign: "center",
-            color: "#286DAB",
+
             fontWeight: "bolder",
           }}
         >
@@ -83,16 +83,16 @@ const Project1 = () => {
         <p>HTML | CSS | JAVASCRIPT | EJS | MONGODB | EXPRESS | NODEJS</p>
 
         <div className={style.btndivv}>
-          <button className={style.btnpro}>
+          <button className={style.btnpro} style={{ backgroundColor: "black" }}>
             <a
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "white" }}
               target="_blank"
               href="https://github.com/huxly123/ShopperStop-clone"
             >
               <span>
                 <svg
                   style={{
-                    color: "black",
+                    color: "white",
                     marginTop: "5px",
                     position: "absolute",
                     left: "10",
@@ -113,10 +113,13 @@ const Project1 = () => {
             </a>
           </button>
 
-          <button className={style.btnpro}>
+          <button
+            className={style.btnpro}
+            style={{ backgroundColor: "#286DAB" }}
+          >
             <a
               href="https://shoppers-stop-com.herokuapp.com/"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "white" }}
               target="_blank"
             >
               <span>

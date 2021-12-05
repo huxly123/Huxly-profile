@@ -4,8 +4,8 @@ import img1 from "./caddy0.png";
 import img2 from "./caddy1.png";
 import img3 from "./caddy2.png";
 import img4 from "./caddy3.png";
-import left from "./left.png";
-import right from "./right.png";
+import left from "./left.gif";
+import right from "./right.gif";
 import style from "./project2.module.css"
 
 const Project2 = () => {
@@ -69,7 +69,7 @@ const Project2 = () => {
         <h2
           style={{
             textAlign: "center",
-            color: "#286DAB",
+
             fontWeight: "bolder",
           }}
         >
@@ -85,16 +85,16 @@ const Project2 = () => {
         <p>React | CSS | JavaScript | Mongo DB | Express JS | Node JS</p>
 
         <div className={style.btndivv}>
-          <button className={style.btnpro}>
+          <button className={style.btnpro} style={{ backgroundColor: "black" }}>
             <a
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "white" }}
               target="_blank"
               href="https://github.com/chandra-akash/DiabetesManagementApp"
             >
               <span>
                 <svg
                   style={{
-                    color: "black",
+                    color: "white",
                     marginTop: "5px",
                     position: "absolute",
                     left: "10",
@@ -114,9 +114,12 @@ const Project2 = () => {
               code
             </a>
           </button>
-          <button className={style.btnpro}>
-            <a
-              style={{ textDecoration: "none" }}
+          <button
+            className={style.btnpro}
+            style={{ backgroundColor: "#286DAB" }}
+          >
+            <a className={style.anch}
+              style={{ textDecoration: "none", color: "white" }}
               target="_blank"
               href="https://caddycool.vercel.app/"
             >
