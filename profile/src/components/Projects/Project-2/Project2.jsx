@@ -6,7 +6,7 @@ import img3 from "./caddy2.png";
 import img4 from "./caddy3.png";
 import left from "./left.gif";
 import right from "./right.gif";
-import style from "./project2.module.css"
+import style from "../Project-1/project1.module.css"
 
 const Project2 = () => {
   const [current, setCurrent] = useState(0);
@@ -118,7 +118,8 @@ const Project2 = () => {
             className={style.btnpro}
             style={{ backgroundColor: "#286DAB" }}
           >
-            <a className={style.anch}
+            <a
+              className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
               href="https://caddycool.vercel.app/"
@@ -148,6 +149,7 @@ const Project2 = () => {
             </a>
           </button>
         </div>
+       
       </div>
     </div>
   );

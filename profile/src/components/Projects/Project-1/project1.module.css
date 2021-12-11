@@ -1,13 +1,14 @@
 .project1body{
     width: 600px;
    min-width: 300px;
-   height: 600px;
+   height: auto;
    font-family: 'Roboto', sans-serif;
-    /* border: 1px solid blueviolet; */
+    border: 1px solid blueviolet;
      border-radius: 20px;
     box-shadow:5px  5px 5px 8px #e6e6e6;
     margin: 40px;
     padding: 20px;
+    /* box-sizing: border-box; */
 }
 .slider{
    position: relative;
@@ -59,7 +60,7 @@ border-radius: 100px;
    justify-content: center;
    height: 25px;
    margin-top: 50px;
-  
+  margin-bottom: 50px;
 }
 
 .btnpro{
@@ -93,8 +94,8 @@ border-radius: 100px;
 }
 
 @media screen and (max-width:700px){
-   .btndivv{
-margin-bottom: 50px;
-   }
+   /* .btndivv{
+/* margin-bottom: 50px; */
+ 
    
 }

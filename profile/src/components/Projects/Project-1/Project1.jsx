@@ -76,8 +76,10 @@ const Project1 = () => {
         </h2>
         <p>
           Shopper-stop is an E-commerce website where we can buy new dresses
-          online.
+          online.You can filter the dresses by Brands, costs, Price Range etc..You can add the items in carts and wishlist then buy the products by checking out.
         </p>
+
+
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
         <p>HTML | CSS | JAVASCRIPT | EJS | MONGODB | EXPRESS | NODEJS</p>
@@ -147,6 +149,7 @@ const Project1 = () => {
             </a>
           </button>
         </div>
+       
       </div>
     </div>
   );
