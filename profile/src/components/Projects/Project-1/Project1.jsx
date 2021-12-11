@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import style from "./project1.module.css";
+
+import youtube from "./youtube.svg"
 import img1 from "./Shopper-stop-1.png";
 import img2 from "./Shopper-stop-2.png";
 import img3 from "./Shopper-stop-3.png";
@@ -76,10 +78,10 @@ const Project1 = () => {
         </h2>
         <p>
           Shopper-stop is an E-commerce website where we can buy new dresses
-          online.You can filter the dresses by Brands, costs, Price Range etc..You can add the items in carts and wishlist then buy the products by checking out.
+          online.You can filter the dresses by Brands, costs, Price Range
+          etc..You can add the items in carts and wishlist then buy the products
+          by checking out.
         </p>
-
-
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
         <p>HTML | CSS | JAVASCRIPT | EJS | MONGODB | EXPRESS | NODEJS</p>
@@ -148,8 +150,34 @@ const Project1 = () => {
               Live
             </a>
           </button>
+
+          {/* yt */}
+          <button className={style.btnpro} style={{ backgroundColor: "red" }}>
+            <a
+              className={style.anch}
+              style={{ textDecoration: "none", color: "white" }}
+              target="_blank"
+              href="https://caddycool.vercel.app/"
+            >
+              <span>
+                <img
+                  src={youtube}
+                  style={{
+                    color: "white",
+                    marginTop: "-2px",
+                    position: "absolute",
+                    left: "0",
+
+                    width: "1.5em",
+                    height: "1.5em",
+                    marginLeft: "8px",
+                  }}
+                ></img>
+              </span>
+              Demo
+            </a>
+          </button>
         </div>
-       
       </div>
     </div>
   );

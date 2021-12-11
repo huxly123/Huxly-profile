@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-
+import youtube from "./youtube.svg"
 import img1 from "./caddy0.png";
 import img2 from "./caddy1.png";
 import img3 from "./caddy2.png";
 import img4 from "./caddy3.png";
 import left from "./left.gif";
 import right from "./right.gif";
-import style from "../Project-1/project1.module.css"
+import style from "./project2.module.css"
 
 const Project2 = () => {
   const [current, setCurrent] = useState(0);
@@ -148,8 +148,35 @@ const Project2 = () => {
               Live
             </a>
           </button>
+          {/* yt */}
+          <button className={style.btnpro} style={{ backgroundColor: "red" }}>
+            <a
+              className={style.anch}
+              style={{ textDecoration: "none", color: "white" }}
+              target="_blank"
+              href="https://caddycool.vercel.app/"
+            >
+              <span>
+                <img
+                  src={youtube}
+                  style={{
+                    color: "white",
+                    marginTop: "-2px",
+                    position: "absolute",
+                    left: "0",
+               
+                    width: "1.5em",
+                    height: "1.5em",
+                    marginLeft: "8px",
+                  
+                
+                  }}
+                ></img>
+              </span>
+              Demo
+            </a>
+          </button>
         </div>
-       
       </div>
     </div>
   );
