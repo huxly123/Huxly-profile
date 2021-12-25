@@ -65,9 +65,9 @@ min-width: 120px;
 transition: 0.4s ease;
 }
 
-.resume:hover{
+/* .resume:hover{
   transform: scale(1.1);
-}
+} */
 
 .github{
     border-radius: 100px;

@@ -6,7 +6,7 @@ function About() {
     <div className={style.aboutbody} >
       <h1 className={style.h1}>About</h1>
       <div className={style.content}>
-        Proficient in Front-end and Back-end Web development using MERN. Always
+        Ace in Front-end and Back-end Web development using MERN. Always
         motivated and eager to work in tech-based companies. Love to learn new
         skills and implement them.Building interactive, real-life projects and
         contributing to the tech community.Love to dance and participated in

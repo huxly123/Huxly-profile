@@ -22,7 +22,7 @@ function Details() {
             {" "}
             <button className={style.resume}>RESUME</button>
           </a>
-          <div style={{ marginTop: "10px" }}>
+          <div style={{ marginTop: "20px" }}>
             <a target="_blank" href="https://github.com/huxly123">
               <img className={style.github} src="/github.svg" alt="github" ></img>
             </a>
