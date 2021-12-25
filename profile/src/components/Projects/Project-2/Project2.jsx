@@ -89,7 +89,7 @@ const Project2 = () => {
             <a
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://github.com/chandra-akash/DiabetesManagementApp"
+              href="https://github.com/huxly123/Caddy-cool"
             >
               <span>
                 <svg
@@ -164,12 +164,10 @@ const Project2 = () => {
                     marginTop: "-2px",
                     position: "absolute",
                     left: "0",
-               
+
                     width: "1.5em",
                     height: "1.5em",
                     marginLeft: "8px",
-                  
-                
                   }}
                 ></img>
               </span>

@@ -1,24 +1,28 @@
-import React from 'react';
-import Project1 from "./Project-1/Project1"
-import Project2 from "./Project-2/Project2"
-import Project3 from "./Project-3/Project3"
-import style from "./project.module.css"
+import React from "react";
+import Project1 from "./Project-1/Project1";
+import Project2 from "./Project-2/Project2";
+import Project3 from "./Project-3/Project3";
+import style from "./project.module.css";
 
 function Project() {
   return (
     <>
-      <h1 className={style.h1} style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }}>
+      <h1
+        className={style.h1}
+        style={{ marginTop: "40px", fontFamily: "'Roboto', sans-serif" }}
+      >
         Projects
       </h1>
       <div className={style.project}>
         <div className={style.projectcontent}>
-          <Project1/>
+          <Project3 />
           <Project2 />
-          {/* <Project3 /> */}
+
+          <Project1 />
         </div>
       </div>
     </>
   );
 }
 
-export default Project
+export default Project;
