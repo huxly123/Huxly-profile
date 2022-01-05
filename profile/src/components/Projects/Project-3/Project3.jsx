@@ -78,7 +78,8 @@ const Project2 = () => {
         <p>
           This website is a clone of Acko an Insurance website. In this website
           you can give the details of your car and then you can insure your car
-          after payment.Before insurance both user and car details were verified.
+          after payment.Before insurance both user and car details were
+          verified.
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
@@ -154,7 +155,7 @@ const Project2 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://caddycool.vercel.app/"
+              href="https://www.youtube.com/watch?v=6h0kGa-9NdI"
             >
               <span>
                 <img

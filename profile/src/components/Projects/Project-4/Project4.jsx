@@ -73,24 +73,27 @@ const Project4 = () => {
             fontWeight: "bolder",
           }}
         >
-          Acko clone
+          Instagram-2.0 (Solo project)
         </h2>
         <p>
-          This website is a clone of Acko an Insurance website. In this website
-          you can give the details of your car and then you can insure your car
-          after payment.Before insurance both user and car details were
-          verified.
+          Instagram-2.0 is a similar clone of Instagram where a user can add
+          posts, likes, or comment on other users' posts after they Logged In.
+          If the user is not logged in he can see others post but cant do
+          comment or like on others post.
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
-        <p>React | CSS | JavaScript | Mongo DB | Express JS | Node JS</p>
+        <p>
+          Next.js | JavaScript | React | Tailwind CSS | Firebase V9 | Next Auth
+          | Recoil
+        </p>
 
         <div className={style.btndivv}>
           <button className={style.btnpro} style={{ backgroundColor: "black" }}>
             <a
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://github.com/huxly123/Acko"
+              href="https://github.com/huxly123/Instagram-2.0"
             >
               <span>
                 <svg
@@ -115,7 +118,7 @@ const Project4 = () => {
               code
             </a>
           </button>
-          <button
+          {/* <button
             className={style.btnpro}
             style={{ backgroundColor: "#286DAB" }}
           >
@@ -148,7 +151,7 @@ const Project4 = () => {
               </span>
               Live
             </a>
-          </button>
+          </button> */}
           {/* yt */}
           <button className={style.btnpro} style={{ backgroundColor: "red" }}>
             <a
